@@ -2,82 +2,120 @@
 
 ![Image](https://github.com/user-attachments/assets/1ebe7b91-8bb9-4303-a3d0-0e7148480ca3)
 
-### 🎯 *Introduction*
+---
 
-**📊 Marketing ROI Analysis** This project explores the relationship between *sales performance* and *marketing budget* using Microsoft *Excel* and *Power BI* tools. It’s designed as a beginner-friendly data analysis assignment to demonstrate how marketing investments influence business outcomes.
+markdown
+# 📊 Sales and Marketing Budget Analysis
 
-===
-
-👇### 🏢 Project Overview
-
-This project analyzes how marketing budget impacts sales performance using Microsoft *Excel* and *Power BI*.
-It provides insights into *marketing efficiency, **return on investment (ROI), and **sales trends* over time.
+A beginner-friendly data analysis project exploring how **marketing budget** influences **sales performance** using **Microsoft Excel** and **Power BI**.
 
 ---
 
-### 🎯 *Objectives*
-
-1. Examine how marketing spending influences sales growth.
-2. Calculate the *Marketing Return on Investment (MROI)*.
-3. Identify whether the marketing budget should be *increased or optimized*.
-4. Estimate *incremental sales lift* achieved from every ₦1,000 spent.
-5. Summarize average sales and budget to establish a baseline operational scale.
+## 🏢 Project Overview
+This project analyzes the impact of marketing investments on business sales outcomes.  
+It combines **ROI computation** and **regression analysis** to evaluate marketing efficiency and identify whether the budget should be **increased or optimized**.
 
 ---
 
-### ❓ *Business Questions*
-
-1. What is the calculated *MROI* based on the derived incremental contribution?
-2. Should the marketing *budget be increased or optimized* within the observed data range?
-3. What is the *estimated incremental sales lift* per ₦1,000 of budget?
-4. What are the *average sales and average marketing budget* across the dataset?
+## 🎯 Objectives
+1. Measure the relationship between marketing spend and sales.  
+2. Calculate **Marketing Return on Investment (MROI)**.  
+3. Estimate **incremental sales lift** per ₦1,000 marketing spend.  
+4. Apply **regression analysis** to predict sales outcomes.  
+5. Recommend whether to **increase or optimize** the marketing budget.
 
 ---
 
-### 🧮 *Methodology*
+## ❓ Business Questions
+- What is the calculated **MROI** based on incremental contribution?  
+- Should the marketing **budget be increased or optimized**?  
+- What is the **incremental sales lift (₦)** per ₦1,000 spent?  
+- What are the **average sales and average marketing budget**?  
+- What does the **regression model** reveal about the relationship between sales and marketing?
 
-* Data was imported and cleaned in *Excel*.
-* *ROI* was calculated using the formula:
-  [
+---
+
+## 🧮 Methodology
+- Data was cleaned and analyzed using **Microsoft Excel**.  
+- **ROI** was calculated using:
+
+  \[
   ROI = \frac{(Sales - Marketing\ Budget)}{Marketing\ Budget} \times 100
-  ]
-* Correlation between Sales and Budget was tested.
-* Power BI visuals were created to display trends, comparisons, and ROI zones.
+  \]
+
+- **Regression Analysis** was performed in Excel:
+
+  \[
+  Sales = a + b \times (Marketing\ Budget)
+  \]
+
+- **Power BI** was used to visualize trends and insights.
 
 ---
 
-### 📈 *Key Results*
+## 📊 Regression Analysis Summary
 
-| Metric                                  | Result                                              |
-| --------------------------------------- | --------------------------------------------------- |
-| *Average ROI (%)*                     | 405%                                                |
-| *Average Sales (₦)*                   | 148,000                                             |
-| *Average Marketing Budget (₦)*        | 30,000                                              |
-| *Incremental Sales per ₦1,000 Budget* | ₦4,700                                              |
-| *Recommendation*                      | Optimize current budget – high ROI already achieved |
+| Metric | Value |
+|--------|--------|
+| Multiple R | 0.837 |
+| R Square | 0.700 |
+| Adjusted R Square | 0.699 |
+| Standard Error | ₦43,055.53 |
+| Observations | 222 |
+| Significance F | 1.9 × 10⁻⁵⁹ |
 
----
-
-### 💡 *Insights*
-
-* Marketing spending shows a *strong positive relationship* with sales (R² ≈ 0.70).
-* Each ₦1 spent generates between *₦3.5 – ₦5* in sales returns.
-* Highest ROI observed in January (500%) with efficient spend.
-* Increasing the budget too much may not proportionally increase sales; hence *optimization is preferred*.
+| Coefficient | Estimate | Interpretation |
+|--------------|-----------|----------------|
+| **Intercept (a)** | ₦30,453.23 | Base sales level without marketing spend |
+| **Slope (b)** | 0.0141 | Every ₦1 spent on marketing increases sales by ₦0.0141 |
 
 ---
 
-### 📊 *Visualization Summary*
-
-* *Line Chart:* Marketing Budget vs Month (Budget Trend)
-* *Bar Chart:* Sales vs Marketing Budget (Comparison)
-* *Scatter Plot:* Relationship between Sales and Budget
-* *KPI Cards:* Total Sales, Total Budget, Average ROI
+## 🔍 Interpretation
+- **R² = 0.70** → 70% of sales variation is explained by marketing budget changes.  
+- **p-value < 0.001** → Marketing budget significantly influences sales.  
+- **Slope (b = 0.0141)** → ₦1,000 marketing spend generates roughly ₦14,100 in additional sales.  
+- Marketing investments are **efficient and profitable**, indicating an opportunity for optimization rather than major budget expansion.
 
 ---
 
-### 🧾 *Conclusion*
+## 💡 Key Results
+| Metric | Result |
+|--------|--------|
+| **Average ROI (%)** | 405% |
+| **Average Sales (₦)** | 148,000 |
+| **Average Marketing Budget (₦)** | 30,000 |
+| **Incremental Sales per ₦1,000** | ₦14,100 |
+| **Recommendation** | Optimize budget (do not increase yet) |
 
-The marketing strategy is effective and delivering strong returns.
-Future efforts should focus on *budget optimization, **targeted campaigns, and **performance monitoring* through dashboards.
+---
 
+## 📈 Insights
+- Marketing budget has a **strong positive correlation** with sales.  
+- Each ₦1 spent yields ₦3.5–₦5 return.  
+- Regression confirms marketing as a key sales driver.  
+- ROI performance suggests **budget optimization** will sustain profitability.
+
+---
+
+## 📊 Visualization Summary
+- **Line Chart:** Marketing Budget Trend (Month)  
+- **Column Chart:** Sales vs Budget  
+- **Scatter Plot:** Relationship between Sales and Budget  
+- **KPI Cards:** Total Sales • Total Budget • ROI % • Incremental Lift  
+
+---
+
+## 🧾 Conclusion
+The analysis demonstrates that marketing spending substantially impacts sales outcomes (R² = 0.70, ROI ≈ 405%).  
+Marketing efforts are efficient; thus, rather than expanding the budget, the company should **optimize current spending** and focus on **targeted campaigns**.
+
+---
+
+## 🛠 Tools Used
+- **Microsoft Excel:** Data cleaning, ROI calculation, regression analysis  
+- **Power BI:** Dashboard and visualizations  
+
+
+## 👩🏽‍💻 Author
+*Sulaimon Aminat*  
