@@ -1,6 +1,6 @@
 # ROI_Tracker
 
-![Image](https://github.com/user-attachments/assets/8906ddcf-60e1-44ce-8827-0d0f742bac5e)
+![Image](https://github.com/user-attachments/assets/1ebe7b91-8bb9-4303-a3d0-0e7148480ca3)
 
 ### 🎯 *Introduction*
 
