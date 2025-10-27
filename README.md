@@ -1,5 +1,7 @@
 # ROI_Tracker
 
+![Image](https://github.com/user-attachments/assets/8906ddcf-60e1-44ce-8827-0d0f742bac5e)
+
 ### 🎯 *Introduction*
 
 **📊 Marketing ROI Analysis** This project explores the relationship between *sales performance* and *marketing budget* using Microsoft *Excel* and *Power BI* tools. It’s designed as a beginner-friendly data analysis assignment to demonstrate how marketing investments influence business outcomes.
