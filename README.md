@@ -23,12 +23,3 @@ The analysis focuses on:
 * ROI was consistently positive across months, with an average of *405%*, indicating strong marketing efficiency.
 * Each ₦1,000 spent in marketing generated significant incremental sales growth.
 * The data suggests marketing spend should be *optimized* rather than increased drastically.
-
-#### 🎯 *Learning Objectives*
-
-* Practice using Excel formulas (e.g., ROI, IF, AVERAGE).
-* Build charts and dashboards in Power BI.
-* Develop data storytelling and reporting skills for business decisions.
-
----
-
