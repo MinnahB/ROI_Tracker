@@ -1,7 +1,7 @@
 
 # 📊 Sales and Marketing Budget Analysis
 
-
+![Image](https://github.com/user-attachments/assets/8906ddcf-60e1-44ce-8827-0d0f742bac5e)
 
 A beginner-friendly data analysis project exploring how **marketing budget** influences **sales performance** using **Microsoft Excel** and **Power BI**.
 
