@@ -112,9 +112,12 @@ Marketing efforts are efficient; thus, rather than expanding the budget, the com
 - **Microsoft Excel:** Data cleaning, ROI calculation, regression analysis  
 - **Power BI:** Dashboard and visualizations  
 
----
+# 🛠 Tools Used
+- **Microsoft Excel:** Data cleaning, ROI calculation, regression analysis  
+- **Power BI:** Dashboard and visualizations  
+
+I am open to collaborate on Data analysis, statistical analysis, visualization and related projects. You can reach me via Email ( Sherdeyjoke@gmail.com)
 
 ## 👩🏽‍💻 Author
 *Sulaimon Aminat*  
-Beginner Marketing ROI Analysis Project (2025)  
-Tools: *Excel, Power BI, and Data Analysis
+
