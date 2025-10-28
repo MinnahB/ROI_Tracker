@@ -117,6 +117,8 @@ Marketing efforts are efficient; thus, rather than expanding the budget, the com
 - **Power BI:** Dashboard and visualizations  
 
 I am open to collaborate on Data analysis, statistical analysis, visualization and related projects. You can reach me via Email ( Sherdeyjoke@gmail.com)
+Linkedin (https://www.linkedin.com/in/sulaimon-aminat-461692288?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
 
 ## 👩🏽‍💻 Author
 *Sulaimon Aminat*  
